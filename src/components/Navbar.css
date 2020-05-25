@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap');
+.navbar{
+    width: 100%;
+    background: rgb(64, 68, 74);
+    color: white;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    box-shadow: 5px 5px 10px 0 gray;
+
+}
+#companyname{
+    font-size: 2em;
+    font-family: 'Eczar', serif;
+}
+#navcontrols{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+#explore{
+    border: 1px solid white;
+    padding : 10px 20px;
+    cursor: pointer;
+}
+#explore:hover{
+    background-color: white;
+    color: rgb(64, 68, 74);
+    
+}
+#login-btn{
+    padding: 10px 20px;
+    background-color: #753613;
+    box-shadow: 1px 1px 4px whitesmoke;
+}
+#login-btn:hover{
+    cursor: pointer;
+}
+@media screen 
+  and (max-width: 600px){
+    #companyname{
+        font-size: 1.4em;
+    }
+    .navbar{
+        padding: 10px 20px;
+    }
+}
+@media screen
+    and (min-width: 701px){
+        #navcontrols{
+            width: 220px;
+        }
+
+    }
+@media screen 
+    and (max-height: 600px){
+    #companyname{
+        font-size: 1em;
+    }
+    .navbar{
+        padding: 10px 70px;
+    }
+
+}

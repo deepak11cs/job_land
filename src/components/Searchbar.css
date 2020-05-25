@@ -1,0 +1,28 @@
+#search-query{
+    background-color: rgba(255,255,255,0);
+    font-size: 2em;
+    border: none;
+}
+#search-query:focus{
+    outline: none;
+}
+.search-bar{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    transform: translate(-50%,0%);
+    padding: 10px 50px;
+    background-color: rgba(255,255,255,0.8);
+    width: 95vw;
+    max-width: 600px;
+}
+
+@media screen 
+  and (max-width: 600px){
+    #search-query{
+        font-size: 1.4em;
+    }
+}

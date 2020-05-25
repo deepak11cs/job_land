@@ -1,0 +1,33 @@
+#card{
+    min-width: 200px;
+    box-shadow: inset 3px 5px 10px white, -5px -5px 10px grey;
+    height: 230px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#card-all{
+    min-width: 200px;
+    box-shadow: inset 3px 5px 10px white, -5px -5px 10px grey;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#com-icon{
+    min-height: 50%;
+    max-height: 50%;
+    max-width: 100%;
+}
+#cards{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+}
+#com-name{
+    font-style: bold;
+}
